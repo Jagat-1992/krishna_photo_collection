@@ -1,0 +1,110 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Light.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.home-page-wraper{
+    height: 7vw;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 2vw; */
+}
+.home-page{
+    height: 3vw;
+    width: 20vw;
+    background-color: rgba(255, 0, 0, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vw;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3);
+}
+.home-page a{
+    text-decoration: none;
+}
+.home-page h2{
+    color: #000000a8;
+}
+
+.photo-frame{
+    height: 25vw;
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.464); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+}
+.photo-container{
+    height: 100%;
+    width: 46%;
+    object-fit: cover;
+}
+.photo-container img{
+    height: 100%;
+    width: 100%;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1000px) {
+    .home-page-wraper{
+        height: 15vw;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-bottom: 2vw; */
+    }
+    .home-page{
+        height: 10vw;
+        width: 55vw;
+        background-color: rgba(255, 0, 0, 0.363);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5vw;
+        box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3);
+    }
+    .home-page a{
+        text-decoration: none;
+    }
+    .home-page h2{
+        color: #000000a8;
+        font-size: 4vw;
+    }
+    
+    .photo-frame{
+        height: 25vw;
+        width: 100%;
+        /* background-color: rgba(255, 0, 0, 0.464); */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 5vw;
+        margin-top: 3vw;
+    }
+    .photo-container{
+        height: 100%;
+        width: 46%;
+        object-fit: cover;
+    }
+    .photo-container img{
+        height: 100%;
+        width: 100%;
+        box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3);
+    } 
+}
